@@ -1,0 +1,37 @@
+{
+  "job_id": "demo-20261020",
+  "provider": "procedural_mock",
+  "generated_by_ai": false,
+  "sample_rate_hz": 48000,
+  "channels": 1,
+  "duration_s": 15.0,
+  "stems": {
+    "drums": {
+      "file": "drums.wav",
+      "gain": 1.0
+    },
+    "bass": {
+      "file": "bass.wav",
+      "gain": 1.0
+    },
+    "melody_harmony": {
+      "file": "melody_harmony.wav",
+      "gain": 1.0
+    }
+  },
+  "mix": "mix.wav",
+  "mix_reconstruction": "mix.wav is the integer sample sum of the listed stem files at gain 1.0",
+  "mix_ducked": null,
+  "mp3": "mix.mp3",
+  "measurements": {
+    "rms_dbfs": -20.370607050775128,
+    "sample_peak_dbfs": -9.180049529696008,
+    "lufs": null,
+    "true_peak_dbtp": null
+  },
+  "notes": [
+    "Procedural mock audio; not AI-generated or a licensed instrument recording.",
+    "Loudness is reported as RMS dBFS proxy; LUFS and oversampled true peak were not measured.",
+    "Narration URL is not downloaded or mixed; mix_ducked.wav is a 4.2 dB attenuated music-only preview."
+  ]
+}
