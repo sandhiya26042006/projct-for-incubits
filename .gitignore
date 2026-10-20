@@ -1,0 +1,9 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+/node_modules/
+/submission_work/
+/submission_workbook.mjs
+/Assessment1_PS1_DRAFT.xlsx
+/Assessment1_PS1_DRAFT.xlsx.inspect.ndjson
